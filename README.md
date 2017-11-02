@@ -33,7 +33,7 @@ $(function(){
 |key|description|default|options|
 |:---|---|---|---|
 | `container`|Container for carrying components.|`$("body")`|`String`|
-| `uclass`|Custom class.|`""`|`String`|
+| `skin`|Custom class.|`""`|`String`|
 | `effect`|Dynamic type, built-in three kinds of `micrsoft`、`recycle`、`flat`.|`micrsoft`|`String`|
 | `url`|Custom dynamic address.|`""`|`String`|
 | `show`|Whether to display text.|`true`|`Boolean`|
@@ -43,7 +43,7 @@ $(function(){
 #### open(conf)
 open the loading component
 - conf.container
-- conf.uclass
+- conf.skin
 - conf.mode 
 - conf.effect
 - conf.url
